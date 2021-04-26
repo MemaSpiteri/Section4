@@ -11,10 +11,10 @@ namespace EmmaSpiteri_SWD6._1B
     {
         static void Main(string[] args)
         {
-            long time_1000Elements_Array = timeDoublyLinkList(10000, 1000);
-            long time_10000Elements_Array = timeDoublyLinkList(10000, 10000);
-            long time_100000Elements_Array = timeDoublyLinkList(10000, 100000);
-            long time_1000000Elements_Array = timeDoublyLinkList(10000, 1000000);
+            long time_1000Elements_Array = timeDoublyLinkList(1000, 1000);
+            long time_10000Elements_Array = timeDoublyLinkList(1000, 10000);
+            long time_100000Elements_Array = timeDoublyLinkList(1000, 100000);
+            long time_1000000Elements_Array = timeDoublyLinkList(1000, 1000000);
 
             Console.WriteLine("Doubly Link List: ");
             Console.WriteLine("Size : 1000 \tTime : " + time_1000Elements_Array);
@@ -22,10 +22,10 @@ namespace EmmaSpiteri_SWD6._1B
             Console.WriteLine("Size : 100000 \tTime : " + time_100000Elements_Array);
             Console.WriteLine("Size : 100000 \tTime : " + time_1000000Elements_Array);
 
-            long time_100Elements_Singly = timeSinglyLinkedList(10000, 1000);
-            long time_1000Elements_Singly = timeSinglyLinkedList(10000, 10000);
-            long time_10000Elements_Singly = timeSinglyLinkedList(10000, 100000);
-            long time_100000Elements_Singly = timeSinglyLinkedList(10000, 1000000);
+            long time_100Elements_Singly = timeSinglyLinkedList(1000, 1000);
+            long time_1000Elements_Singly = timeSinglyLinkedList(1000, 10000);
+            long time_10000Elements_Singly = timeSinglyLinkedList(1000, 100000);
+            long time_100000Elements_Singly = timeSinglyLinkedList(1000, 1000000);
 
             Console.WriteLine("\n\nSingly Linked List : ");
             Console.WriteLine("Size : 100 \tTime : " + time_100Elements_Singly);
